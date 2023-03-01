@@ -1,7 +1,7 @@
 1. git checkout [file name]
 2. git restore --staged [file name]
-3. git reset HEAD ~ [number]
-4. git branch [branch name], git checkout [branch name]
+3. git revert, git reset HEAD ~ [number]
+4. git checkout -b [branch name]
 5. Fast-forward merge - объединение веток с одинаковым количеством коммитов. Без создания нового коммита.
    No-fast-forward merge - обединение веток с разным количеством коммитов. Создание нового коммита для слияния веток.
 6. Конфликт возникает, когда в двух ветках были изменены/удалёны файл/строка в одном и том же файле.
